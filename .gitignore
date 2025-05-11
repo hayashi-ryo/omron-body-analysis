@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+.venv/
+venv/
+
+# VSCode devcontainer
+.devcontainer/.python-version
+.vscode/
+.history/
+
+# Data
+data/*.csv
+data/*.xlsx
+data/*.tsv
+processed_files.json
+cached_merged_df.pkl
+
+# Streamlit
+.streamlit/config.toml
+
+# OS files
+.DS_Store
+Thumbs.db
+*.code-workspace
